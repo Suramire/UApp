@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ChooseAddressVC : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIButton *addBtn;//添加地址按钮
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong,nonatomic) NSMutableArray *dataArray;
 @end
 
 NS_ASSUME_NONNULL_END

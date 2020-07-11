@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (Corner)
 
+//可视化设置圆角
+@property (nonatomic,assign)IBInspectable CGFloat cornerRadius;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,14 @@
 		60123C0E24B8486C00B52718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60123C0D24B8486C00B52718 /* Assets.xcassets */; };
 		60123C1124B8486C00B52718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60123C0F24B8486C00B52718 /* LaunchScreen.storyboard */; };
 		60123C1424B8486C00B52718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60123C1324B8486C00B52718 /* main.m */; };
+		60123C2024B84D1100B52718 /* ChooseAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60123C1E24B84D1100B52718 /* ChooseAddressVC.m */; };
+		60123C2124B84D1100B52718 /* ChooseAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60123C1F24B84D1100B52718 /* ChooseAddressVC.xib */; };
+		60123C2624B84E4000B52718 /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60123C2424B84E4000B52718 /* AddressCell.m */; };
+		60123C2724B84E4000B52718 /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60123C2524B84E4000B52718 /* AddressCell.xib */; };
+		60123C2B24B8567C00B52718 /* UIView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 60123C2A24B8567C00B52718 /* UIView+Corner.m */; };
+		60123C2F24B8582C00B52718 /* UIButton+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = 60123C2E24B8582C00B52718 /* UIButton+Border.m */; };
+		6047566E24B95C53007342AB /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6047566D24B95C53007342AB /* GradientButton.m */; };
+		7B3114AAAA26FD6A26B8E207 /* Pods_UApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B893940E70D8F1B5FA49655A /* Pods_UApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,21 @@
 		60123C1024B8486C00B52718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60123C1224B8486C00B52718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60123C1324B8486C00B52718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60123C1D24B84D1100B52718 /* ChooseAddressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseAddressVC.h; sourceTree = "<group>"; };
+		60123C1E24B84D1100B52718 /* ChooseAddressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseAddressVC.m; sourceTree = "<group>"; };
+		60123C1F24B84D1100B52718 /* ChooseAddressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseAddressVC.xib; sourceTree = "<group>"; };
+		60123C2324B84E4000B52718 /* AddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
+		60123C2424B84E4000B52718 /* AddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
+		60123C2524B84E4000B52718 /* AddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressCell.xib; sourceTree = "<group>"; };
+		60123C2924B8567C00B52718 /* UIView+Corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
+		60123C2A24B8567C00B52718 /* UIView+Corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner.m"; sourceTree = "<group>"; };
+		60123C2D24B8582C00B52718 /* UIButton+Border.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Border.h"; sourceTree = "<group>"; };
+		60123C2E24B8582C00B52718 /* UIButton+Border.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Border.m"; sourceTree = "<group>"; };
+		6047566C24B95C53007342AB /* GradientButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		6047566D24B95C53007342AB /* GradientButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		B893940E70D8F1B5FA49655A /* Pods_UApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CDA3868B346FF678AFE379 /* Pods-UApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UApp.debug.xcconfig"; path = "Target Support Files/Pods-UApp/Pods-UApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DF87798113921EBDBC4FD398 /* Pods-UApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UApp.release.xcconfig"; path = "Target Support Files/Pods-UApp/Pods-UApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3114AAAA26FD6A26B8E207 /* Pods_UApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +71,8 @@
 			children = (
 				60123C0024B8486800B52718 /* UApp */,
 				60123BFF24B8486800B52718 /* Products */,
+				EB4F54403214822DAAF8ECD5 /* Pods */,
+				FD8419D1D5D43E6619A29777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +87,68 @@
 		60123C0024B8486800B52718 /* UApp */ = {
 			isa = PBXGroup;
 			children = (
+				60123C1A24B84CE300B52718 /* Order */,
+				60123C2C24B857C100B52718 /* other */,
+				60123C0D24B8486C00B52718 /* Assets.xcassets */,
+				60123C1224B8486C00B52718 /* Info.plist */,
+			);
+			path = UApp;
+			sourceTree = "<group>";
+		};
+		60123C1A24B84CE300B52718 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				60123C1B24B84CEF00B52718 /* Address */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		60123C1B24B84CEF00B52718 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				60123C2824B8565D00B52718 /* category */,
+				60123C2224B84E2000B52718 /* view */,
+				60123C1C24B84CF600B52718 /* controller */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		60123C1C24B84CF600B52718 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				60123C1D24B84D1100B52718 /* ChooseAddressVC.h */,
+				60123C1E24B84D1100B52718 /* ChooseAddressVC.m */,
+				60123C1F24B84D1100B52718 /* ChooseAddressVC.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		60123C2224B84E2000B52718 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				60123C2324B84E4000B52718 /* AddressCell.h */,
+				60123C2424B84E4000B52718 /* AddressCell.m */,
+				60123C2524B84E4000B52718 /* AddressCell.xib */,
+				6047566C24B95C53007342AB /* GradientButton.h */,
+				6047566D24B95C53007342AB /* GradientButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		60123C2824B8565D00B52718 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				60123C2924B8567C00B52718 /* UIView+Corner.h */,
+				60123C2A24B8567C00B52718 /* UIView+Corner.m */,
+				60123C2D24B8582C00B52718 /* UIButton+Border.h */,
+				60123C2E24B8582C00B52718 /* UIButton+Border.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		60123C2C24B857C100B52718 /* other */ = {
+			isa = PBXGroup;
+			children = (
 				60123C0124B8486800B52718 /* AppDelegate.h */,
 				60123C0224B8486800B52718 /* AppDelegate.m */,
 				60123C0424B8486800B52718 /* SceneDelegate.h */,
@@ -68,12 +156,27 @@
 				60123C0724B8486800B52718 /* ViewController.h */,
 				60123C0824B8486800B52718 /* ViewController.m */,
 				60123C0A24B8486800B52718 /* Main.storyboard */,
-				60123C0D24B8486C00B52718 /* Assets.xcassets */,
 				60123C0F24B8486C00B52718 /* LaunchScreen.storyboard */,
-				60123C1224B8486C00B52718 /* Info.plist */,
 				60123C1324B8486C00B52718 /* main.m */,
 			);
-			path = UApp;
+			path = other;
+			sourceTree = "<group>";
+		};
+		EB4F54403214822DAAF8ECD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2CDA3868B346FF678AFE379 /* Pods-UApp.debug.xcconfig */,
+				DF87798113921EBDBC4FD398 /* Pods-UApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD8419D1D5D43E6619A29777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B893940E70D8F1B5FA49655A /* Pods_UApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60123C1724B8486C00B52718 /* Build configuration list for PBXNativeTarget "UApp" */;
 			buildPhases = (
+				EF4FBC6421037D20A8F52FED /* [CP] Check Pods Manifest.lock */,
 				60123BFA24B8486800B52718 /* Sources */,
 				60123BFB24B8486800B52718 /* Frameworks */,
 				60123BFC24B8486800B52718 /* Resources */,
+				B4F434FF0B4B4FFE94B4FE36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60123C2124B84D1100B52718 /* ChooseAddressVC.xib in Resources */,
+				60123C2724B84E4000B52718 /* AddressCell.xib in Resources */,
 				60123C1124B8486C00B52718 /* LaunchScreen.storyboard in Resources */,
 				60123C0E24B8486C00B52718 /* Assets.xcassets in Resources */,
 				60123C0C24B8486800B52718 /* Main.storyboard in Resources */,
@@ -141,15 +248,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4F434FF0B4B4FFE94B4FE36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UApp/Pods-UApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UApp/Pods-UApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UApp/Pods-UApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4FBC6421037D20A8F52FED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60123BFA24B8486800B52718 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60123C2624B84E4000B52718 /* AddressCell.m in Sources */,
+				6047566E24B95C53007342AB /* GradientButton.m in Sources */,
 				60123C0924B8486800B52718 /* ViewController.m in Sources */,
+				60123C2B24B8567C00B52718 /* UIView+Corner.m in Sources */,
 				60123C0324B8486800B52718 /* AppDelegate.m in Sources */,
+				60123C2024B84D1100B52718 /* ChooseAddressVC.m in Sources */,
 				60123C1424B8486C00B52718 /* main.m in Sources */,
 				60123C0624B8486800B52718 /* SceneDelegate.m in Sources */,
+				60123C2F24B8582C00B52718 /* UIButton+Border.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +441,7 @@
 		};
 		60123C1824B8486C00B52718 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CDA3868B346FF678AFE379 /* Pods-UApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +458,7 @@
 		};
 		60123C1924B8486C00B52718 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF87798113921EBDBC4FD398 /* Pods-UApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

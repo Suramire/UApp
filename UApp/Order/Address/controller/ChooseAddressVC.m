@@ -7,8 +7,9 @@
 //
 
 #import "ChooseAddressVC.h"
-
-@interface ChooseAddressVC ()
+#import "AddressCell.h"
+static NSString *reuseId = @"AddressCell";
+@interface ChooseAddressVC () <UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -16,17 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.rowHeight = 132;
+    [self.tableView registerNib:[UINib nibWithNibName:reuseId bundle:[NSBundle mainBundle]] forCellReuseIdentifier:reuseId];
+    [self.tableView  setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    self.dataArray = [[NSMutableArray alloc] initWithObjects:@"a",@"b",@"c",@"d",@"e",@"f", nil];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.dataArray.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    AddressCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
+    return cell;
+}
+
 
 @end
